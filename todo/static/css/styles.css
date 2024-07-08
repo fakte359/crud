@@ -1,0 +1,143 @@
+.table {
+    border-collapse: separate; /* Asegura que las celdas no se fusionen */
+    border-radius: 8px; /* Ajusta el radio del borde según tus preferencias */
+    overflow: hidden; /* Asegura que el contenido no sobresalga de los bordes redondeados */
+}
+
+.table thead th {
+    background-color: #212529; /* Color de fondo para el encabezado */
+    color: #ffffff; /* Color de texto para el encabezado */
+}
+
+.table tbody tr {
+    background-color: #343a40; /* Color de fondo de las filas en modo oscuro */
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #495057; /* Color de fondo alternativo para filas impares en modo oscuro */
+}
+
+.table td, .table th {
+    border: 1px solid #dee2e6; /* Color de borde para celdas */
+}
+
+.table-dark {
+    background-color: #343a40; /* Color de fondo oscuro */
+}
+
+.table-dark th, .table-dark td {
+    color: #ffffff; /* Color de texto blanco para el modo oscuro */
+}
+
+.btn {
+    border-radius: 4px; /* Bordes redondeados para los botones */
+}
+
+
+/* static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/img/deiby.jpg'); /*imagen de fondo*/
+    background-size: cover;
+    background-repeat: no-repeat;  /* La imagen no se repetirá */
+    background-position: center;  /* La imagen estará centrada */
+    background-attachment: fixed;  
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #dfe2e5;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(216, 46, 46, 0.1);
+    border: 2px solid rgba(255, 255, 255, .5); /*el container de editar transparente*/
+    backdrop-filter: blur(5px);
+
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    background: transparent;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 4px;
+    background: transparent;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    color: #ffffff;
+    background-color: #e71531;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-primary {
+    background-color: blue ;
+    color: white;
+
+}
+.btn-primaryy{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Asegúrate de que las celdas no tengan espacio entre ellas */
+  }
+  
+  td, th {
+    padding: 8px; /* Ajusta el padding según sea necesario */
+    text-align: center; /* Centra el contenido si es necesario */
+  }
+  
+  td:last-child {
+    padding-right: 0px; /* Elimina el padding derecho de la última celda */
+  }
+  
+  button {
+    margin: 0 2px; /* Ajusta el margen entre los botones si es necesario */
+  }
+
+.display-4{
+    color: white;
+}
+/* styles.css */
+.form-control::placeholder {
+    color: white; /* Cambia  la letra del placeholder */
+    opacity: 1; /* Asegura que la opacidad sea la deseada */
+}
+
+.form-control:focus {
+    background-color: transparent; /* Hace el fondo transparente */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Cambia el color del borde */
+    outline: none; /* elimina el borde por defecto */
+    color: white; /* color de las letras del formulario */
+}
+
+.form-control{
+    color: white /*esto cambia el color de la letra del formulario*/
+}
+header {
+    background-color: hsl(214, 19%, 93%);
+    color: #921f1f;
+    padding: 1rem;
+    text-align: center;
+}
